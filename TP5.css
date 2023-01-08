@@ -1,0 +1,102 @@
+/* Ex1 Q1 */
+table, th, td 
+{
+    border: 1px solid black;
+}
+/* EX1 Q2 Q3a */
+table
+{
+    border-collapse: collapse;
+    width: 50%;
+}
+/* EX1 Q3b */
+th
+{
+    background-color: blue;
+    color: aliceblue;
+}
+/* EX1 Q3cde */
+td
+{
+    padding: 20px;
+    height: 40px;
+    border-bottom: 1px solid;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* EX2 */
+div.stat {
+    border: 3px solid #73AD21;
+    top: 50px;
+    left: 40px;
+    position:static;
+}
+div.rel{
+    border: 3px solid #73AD21;
+    top:50px;
+    left:40px;
+    position:relative;
+    width:400px;
+    height:200px;
+    } 
+div.absol{
+    border: 3px solid #73AD21;
+    top:60px;
+    right:0;
+    width:150px;
+    height:100px;
+    position:absolute;
+    }   
+div.fix{
+    border: 3px solid #73AD21;
+    width:400px;
+    bottom:0;
+    right:0;
+    position:fixed;
+    } 
+/* EX2 Q2 */ 
+img{
+    width:200px;
+    height:200px;
+    margin-left:15px;
+    float:right;
+    }  
+p{
+    clear:right;  
+    }   
+.div1{
+    margin:10px;
+    float:left;
+    width:200px;
+    height:50px;
+    border:solid red;
+    }    
+.div2{
+    border:solid green;
+    clear:left;
+} 
+a{
+    display: block;
+    display: inline;
+}
+h1{
+    visibility: hidden;
+}
+     /*Ex3 */
+ div p{
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+       }
+   div > p {
+    background-color: orange;
+  }
+   
+   div + p {
+    color:skyblue;
+    font-size: 25px;
+    font-style:oblique;
+  }        
